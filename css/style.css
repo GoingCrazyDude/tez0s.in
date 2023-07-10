@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    font-size: 26px;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: #220000 solid 5px;
+}
+
+.profile {
+    padding: 50px;
+    text-align: center;
+}
+
+.list {
+    padding: 50px;
+    text-align: center;
+}
+
+.list li {
+    margin: 50px;
+    padding: 50px;
+    list-style-position: inside;
+    border: solid 2px;
+    border-radius: 15px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+}
