@@ -19,11 +19,6 @@
   bottom: 0;
 }
 
-html {
-  block-size: 100%;
-  inline-size: 100%;
-}
-
 body {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
@@ -73,7 +68,7 @@ li a::before {
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   inset: 0 0 0 0;
-  background: hsl(200 100% 80%);
+  background: hsl(0, 100%, 50%);
   z-index: -1;
   transition: transform .3s ease;
 }
