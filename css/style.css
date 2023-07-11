@@ -13,11 +13,7 @@
   color: #F79489;
   text-decoration: none;
   text-align: center;
-  position: absolute;
-  display: grid;
-  left: 0;
-  right: 0;
-  bottom: 40px;
+  position: relative;
 }
 
 body {
