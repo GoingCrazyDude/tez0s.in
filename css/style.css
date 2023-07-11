@@ -8,7 +8,7 @@
 
 
 .repo a, a:visited {
-  color: black;
+  color: #F79489;
   text-decoration: none;
   font-size: small;
   text-align: center;
@@ -16,17 +16,19 @@
   display: grid;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 10%;
 }
 
 body {
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  background-color: #FADCD9;
+  color: #e8a392;
   font-family: Inter;
   font-size: 25px;
   display: grid;
   place-content: center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
@@ -37,8 +39,8 @@ body {
     opacity: 1;
   }
 }
-
 .profile {
+  color: #F79489;
   margin: 75px;
   font-weight: 700;
   text-align: center;
@@ -53,6 +55,7 @@ li {
 }
 
 li a::before {  
+  color: #e8a392;
   transform: scaleX(0);
   transform-origin: bottom right;
 }
@@ -63,12 +66,13 @@ li a:hover::before, a:focus::before {
 }
 
 li a::before {
+  color: #F79489;
   content: " ";
   display: block;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   inset: 0 0 0 0;
-  background: hsl(0, 100%, 50%);
+  background: #d62828;
   z-index: -1;
   transition: transform .3s ease;
 }
@@ -76,7 +80,7 @@ li a::before {
 li a {
   margin: 10px;
   position: relative;
-  color: black;
+  color: #e8a392;
   border-radius: 10px;
   justify-content: center;
   text-decoration: none;
