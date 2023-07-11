@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@font-face {
+  font-family: 'Mont';
+  src: url('../otf/Mont-Bold.otf');
+}
 
 * {
   margin: 0;
@@ -20,7 +23,7 @@
 body {
   background-color: #FADCD9;
   color: #e8a392;
-  font-family: Inter;
+  font-family: Mont;
   font-size: 25px;
   display: grid;
   place-content: center;
