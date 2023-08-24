@@ -9,13 +9,6 @@
   box-sizing: content-box;
 }
 
-.repo a, a:visited {
-  color: #F79489;
-  text-decoration: none;
-  text-align: center;
-  position: relative;
-}
-
 body {
   background-color: #FADCD9;
   color: #e8a392;
