@@ -1,9 +1,7 @@
-@font-face {
-  font-family: 'Mont';
-  src: url('../otf/Mont-Bold.otf');
-}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 * {
+  font-family: 'JetBrain Mono', monospace;
   margin: 0;
   padding: 0;
   box-sizing: content-box;
@@ -45,27 +43,11 @@ ul {
   list-style-type: none;
 }
 
-li:nth-child(1) {
-  list-style: url("https://img.icons8.com/ios/48/spotify--v1.png");
-}
-li:nth-child(2) {
-  list-style: url("https://img.icons8.com/ios/48/discord-logo--v1.png");
-}
-li:nth-child(3) {
-  list-style: url("https://img.icons8.com/ios/48/roblox.png");
-}
-li:nth-child(4) {
-  list-style: url("https://img.icons8.com/ios/48/github--v1.png");
-}
-li:nth-child(5) {
-  list-style: url("https://img.icons8.com/ios/48/youtube-play--v1.png");
-}
-
 li a::before {
   color: #e8a392;
   transform: scaleX(0);
   transform-origin: bottom right;
-  content: " ";
+  content: ' ';
   display: block;
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
