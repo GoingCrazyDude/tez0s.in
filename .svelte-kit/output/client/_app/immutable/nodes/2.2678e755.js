@@ -1,0 +1,6 @@
+import{s as r,n as s}from"../chunks/scheduler.e108d1fd.js";import{S as i,i as n,g as c,h,y as v,k as g,a as m,f as b}from"../chunks/index.a21d6cee.js";const d=""+new URL("../assets/yandhi.b063291e.gif",import.meta.url).href;function u(a){let e,l=`<img src="${d}" alt="Yandhi" width="300" class="svelte-2l707o"/> <div class="bio svelte-2l707o">hi, im tezos <br class="svelte-2l707o"/>
+        idiot programmer, still learning <br class="svelte-2l707o"/> <br class="svelte-2l707o"/>
+        -&gt; <a href="https://roblox.com/users/747081921/profile" target="_blank" class="svelte-2l707o">roblox</a> <br class="svelte-2l707o"/>
+        -&gt; <a href="https://discord.com/users/507203871806849055" target="_blank" class="svelte-2l707o">discord</a> <br class="svelte-2l707o"/>
+        -&gt; <a href="https://github.com/GoingCrazyDude" target="_blank" class="svelte-2l707o">github</a> <br class="svelte-2l707o"/>
+        -&gt; <a href="https://youtube.com/UCEfChwRaq082v13mPuG24_g" target="_blank" class="svelte-2l707o">youtube</a> <br class="svelte-2l707o"/></div>`;return{c(){e=c("body"),e.innerHTML=l,this.h()},l(t){e=h(t,"BODY",{class:!0,"data-svelte-h":!0}),v(e)!=="svelte-9xrtik"&&(e.innerHTML=l),this.h()},h(){g(e,"class","svelte-2l707o")},m(t,o){m(t,e,o)},p:s,i:s,o:s,d(t){t&&b(e)}}}class f extends i{constructor(e){super(),n(this,e,null,u,r,{})}}export{f as component};
