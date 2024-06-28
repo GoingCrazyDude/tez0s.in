@@ -16,7 +16,7 @@
 
     img {
         position: absolute;
-        left: 92.5%;
+        left: 92.25%;
         top: 85%;
         transform: translate(-50%, -50%);
     }
@@ -24,26 +24,28 @@
     .bio {
         box-shadow: 5px 5px 2.5px black;
         color: #FCFAFC;
-        background: #818181;
+        background: #DDCDC1;
         border-width: 4px;
-        border-color: #818181;
+        border-color: #DDCDC1;
         border-style: solid;
         border-radius: 12px;
         padding: 2em;
         position: absolute;
         left: 50%;
-        top: 40%;
+        top: 50%;
         transform: translate(-50%, -50%);
     }
     a {
-        background: #818181;
+        background: #DDCDC1;
         color: #FCFAFC;
         text-decoration: underline;
     }
 </style>
 
 <body>
-    <img src={Yandhi} alt="Yandhi" width="300" />
+    <div class="blur">
+        <img src={Yandhi} alt="Yandhi" width="300" />
+    </div>
     <div class="bio">
         hi, im tezos <br>
         idiot programmer, still learning <br>
