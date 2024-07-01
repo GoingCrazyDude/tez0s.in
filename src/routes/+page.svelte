@@ -79,6 +79,6 @@
         -> <a href="https://roblox.com/users/747081921/profile" target="_blank">roblox</a> <br>
         -> <a href="https://discord.com/users/507203871806849055" target="_blank">discord</a> <br>
         -> <a href="https://github.com/GoingCrazyDude" target="_blank">github</a> <br>
-        -> <a href="https://youtube.com/UCEfChwRaq082v13mPuG24_g" target="_blank">youtube</a> <br>
+        -> <a href="https://youtube.com/channel/UCEfChwRaq082v13mPuG24_g" target="_blank">youtube</a> <br>
     </div>
 </body>
