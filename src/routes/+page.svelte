@@ -38,6 +38,17 @@
         transform: translate(-50%,-50%)
     }
 
+    .mica {
+        position: fixed;
+        border-radius: 8px;
+        border-width: thin;
+        border-style: solid;
+        -webkit-backdrop-filter: blur(40px);
+        backdrop-filter: blur(40px);
+        overflow-y: auto;
+        box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
+    }
+
     /* img {
         position: absolute;
         left: 92.5%;
@@ -48,9 +59,9 @@
     .bio {
         box-shadow: 5px 5px 2.5px black;
         color: #FCFAFC;
-        background: #818181;
+        background: #00000000;
         border-width: 4px;
-        border-color: #818181;
+        border-color: #00000000;
         border-style: solid;
         border-radius: 12px;
         padding: 2em;
@@ -61,7 +72,7 @@
         z-index: 1;
     }
     a {
-        background: #818181;
+        background: #00000000;
         color: #FCFAFC;
         text-decoration: underline;
     }
@@ -72,7 +83,7 @@
         <video src="{Gojo}" autoplay loop muted></video>
     </div>
     <!-- <img src={Yandhi} alt="Yandhi" width="300" /> -->
-    <div class="bio">
+    <div class="bio mica">
         hi, im tezos <br>
         idiot programmer, still learning <br>
         <br>
