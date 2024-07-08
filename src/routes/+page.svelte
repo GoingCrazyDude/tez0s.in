@@ -1,6 +1,8 @@
 <script>
     // import Yandhi from "$lib/assets/yandhi.gif"
     import Gojo from "$lib/assets/The Strongest.mp4"
+    import SvelteLogo from "$lib/assets/Svelte Logo.svg"
+    import Heart from "$lib/assets/Heart.svg"
 </script>
 
 <style>
@@ -22,16 +24,33 @@
         overflow: hidden;
     }
 
+    .footer {
+        box-shadow: 5px 5px 2.5px black;
+        color: #FFFFFF;
+        background: #00000000;
+        border-width: 4px;
+        border-color: #00000000;
+        border-style: solid;
+        border-radius: 12px;
+        padding: 1em;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .footer img {
+        background: none;
+    }
+
     .video video {
-         /* Make video to at least 100% wide and tall */
         min-width: 100%; 
         min-height: 100%; 
 
-        /* Setting width & height to auto prevents the browser from stretching or squishing the video */
         width: auto;
         height: auto;
 
-        /* Center the video */
         position: absolute;
         top: 50%;
         left: 50%;
@@ -58,7 +77,7 @@
     
     .bio {
         box-shadow: 5px 5px 2.5px black;
-        color: #FCFAFC;
+        color: #FFFFFF;
         background: #00000000;
         border-width: 4px;
         border-color: #00000000;
@@ -91,5 +110,8 @@
         -> <a href="https://discord.com/users/507203871806849055" target="_blank">discord</a> <br>
         -> <a href="https://github.com/GoingCrazyDude" target="_blank">github</a> <br>
         -> <a href="https://youtube.com/channel/UCEfChwRaq082v13mPuG24_g" target="_blank">youtube</a> <br>
+    </div>
+    <div class="footer mica">
+        Made with <img src="{Heart}" height="24" width="24"/> with <img src="{SvelteLogo}" height="24" width="24"/>
     </div>
 </body>
