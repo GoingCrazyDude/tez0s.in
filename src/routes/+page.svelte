@@ -25,7 +25,6 @@
     }
 
     .footer {
-        box-shadow: 5px 5px 2.5px black;
         color: #FFFFFF;
         background: #00000000;
         border-width: 4px;
@@ -38,6 +37,7 @@
         top: 90%;
         transform: translate(-50%, -50%);
         z-index: 1;
+        box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
     }
 
     .footer img {
@@ -65,7 +65,7 @@
         -webkit-backdrop-filter: blur(40px);
         backdrop-filter: blur(40px);
         overflow-y: auto;
-        box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
+        
     }
 
     /* img {
@@ -76,7 +76,7 @@
     } */
     
     .bio {
-        box-shadow: 5px 5px 2.5px black;
+        box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
         color: #FFFFFF;
         background: #00000000;
         border-width: 4px;
