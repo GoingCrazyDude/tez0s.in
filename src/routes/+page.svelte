@@ -110,6 +110,7 @@
         -> <a href="https://discord.com/users/507203871806849055" target="_blank">discord</a> <br>
         -> <a href="https://github.com/GoingCrazyDude" target="_blank">github</a> <br>
         -> <a href="https://youtube.com/channel/UCEfChwRaq082v13mPuG24_g" target="_blank">youtube</a> <br>
+        -> <a href="https://www.youtube.com/watch?v=EMnQwBTJnMM&pp=ygUScnVuYXdheSBrYW55ZSB3ZXN0" target="_blank">onlyfans</a>
     </div>
     <div class="footer mica">
         Made with <img src="{Heart}" height="24" width="24"/> with <img src="{SvelteLogo}" height="24" width="24"/>
