@@ -6,103 +6,15 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&display=swap');
-    * {
-        background: #000000;
-        font-family: "JetBrains Mono", monospace;
-        font-size: 20px;
-        margin: 0;
-        padding: 0;
-    }
 
-    .video {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%; 
-        overflow: hidden;
-    }
-
-    .footer {
-        color: #FFFFFF;
-        background: #00000000;
-        border-width: 4px;
-        border-color: #00000000;
-        border-style: solid;
-        border-radius: 12px;
-        padding: 1em;
-        position: absolute;
-        left: 50%;
-        top: 90%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-        box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
-    }
-
-    .footer img {
-        background: none;
-    }
-
-    .video video {
-        min-width: 100%; 
-        min-height: 100%; 
-
-        width: auto;
-        height: auto;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%)
-    }
-
-    .mica {
-        position: fixed;
-        border-radius: 8px;
-        border-width: thin;
-        border-style: solid;
-        -webkit-backdrop-filter: blur(40px);
-        backdrop-filter: blur(40px);
-        overflow-y: auto;
-        
-    }
-
-    /* img {
-        position: absolute;
-        left: 92.5%;
-        top: 85%;
-        transform: translate(-50%, -50%);
-    } */
-    
-    .bio {
-        box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
-        color: #FFFFFF;
-        background: #00000000;
-        border-width: 4px;
-        border-color: #00000000;
-        border-style: solid;
-        border-radius: 12px;
-        padding: 2em;
-        position: absolute;
-        left: 50%;
-        top: 40%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-    }
-    a {
-        background: #00000000;
-        color: #FCFAFC;
-        text-decoration: underline;
-    }
 </style>
 
 <body>
-    <div class="video">
-        <video src="{Gojo}" autoplay loop muted></video>
+    <div class="top-0 bottom-0 w-full h-full overflow-hidden">
+        <video class="min-w-full min-h-full absolute -translate-y-1/2 -translate-x-1/2 video" src="{Gojo}" autoplay loop muted></video>
     </div>
     <!-- <img src={Yandhi} alt="Yandhi" width="300" /> -->
-    <div class="bio mica">
+    <div class="shadow-lg bg-transparent z-1 backdrop-blur-xl p-6 absolute -translate-y-1/2 -translate-x-1/2 rounded-md bio text-white">
         hi, im tezos <br>
         idiot programmer, still learning <br>
         <br>
@@ -111,7 +23,7 @@
         -> <a href="https://github.com/GoingCrazyDude" target="_blank">github</a> <br>
         -> <a href="https://youtube.com/channel/UCEfChwRaq082v13mPuG24_g" target="_blank">youtube</a> <br>
     </div>
-    <div class="footer mica">
-        Made with <img src="{Heart}" height="24" width="24"/> with <img src="{SvelteLogo}" height="24" width="24"/>
+    <div class="shadow-lg bg-transparent z-1 backdrop-blur-xl p-6 absolute -translate-y-1/2 -translate-x-1/2 rounded-md footer text-white">
+        Made with <img src="{Heart}" height="24" width="24" alt="love"/> with <img src="{SvelteLogo}" height="24" width="24" alt="svelte"/>
     </div>
 </body>

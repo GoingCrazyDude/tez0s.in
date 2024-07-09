@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    background: #000000;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer {
+    left: 50%;
+    top: 90%;
+}
+
+.footer img {
+    background: none;
+}
+
+.video {
+    top: 50%;
+    left: 50%;
+}
+  
+.bio {
+    left: 50%;
+    top: 40%;
+}
+
+a {
+    background: #00000000;
+    color: #FCFAFC;
+    text-decoration: underline;
+}
