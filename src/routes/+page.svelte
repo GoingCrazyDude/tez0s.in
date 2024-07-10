@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="shadow-lg bg-transparent z-1 backdrop-blur-xl p-6 absolute -translate-y-1/2 -translate-x-1/2 rounded-md footer text-white flex">
-        Made with <img class="px-1 w-8 h-6" src="{Heart}" alt="love"/> with <img class="px-1 w-8 h-6" src="{SvelteLogo}" alt="svelte"/>
+        Made with <img class="px-1 w-8 h-6" src="{Heart}" alt="love"/> and <img class="px-1 w-8 h-6" src="{SvelteLogo}" alt="svelte"/>
     </div>
 </body>
 
