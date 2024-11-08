@@ -11,7 +11,7 @@
                 username = 'Skylan';
                 pronouns = 'He/Him/Any';
                 description = 'meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow'
-                url = "https://raw.githubusercontent.com/GoingCrazyDude/tez0s.in/refs/heads/main/src/lib/assets/Aero.png";
+                url = "https://raw.githubusercontent.com/GoingCrazyDude/tez0s.in/refs/heads/main/static/img/Aero.png";
                 break;
             case 'Xaur':
                 username = '???';
@@ -23,7 +23,7 @@
                 username = 'Tezos';
                 pronouns = 'They/Them';
                 description = 'Hi! I code and stuff.';
-                url = "https://raw.githubusercontent.com/GoingCrazyDude/tez0s.in/refs/heads/main/src/lib/assets/Yeezus.png";
+                url = "https://raw.githubusercontent.com/GoingCrazyDude/tez0s.in/refs/heads/main/static/img/Yeezus.png";
                 break;
             default:
                 username = 'none';
