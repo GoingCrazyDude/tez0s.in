@@ -9,7 +9,7 @@
         switch (profileName) {
             case 'Skylan':
                 username = 'Skylan';
-                pronouns = 'He/Him/Any';
+                pronouns = 'Any';
                 description = 'meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow :3 meow'
                 url = "https://raw.githubusercontent.com/GoingCrazyDude/tez0s.in/refs/heads/main/static/img/Aero.png";
                 break;
