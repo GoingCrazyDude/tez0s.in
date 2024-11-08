@@ -3,10 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.gif" />
+		<link rel="preload" href="%sveltekit.assets%/font/SFHello-Regular.png" type="font/opentype" cas="font" crossorigin/>
+		<link rel="preload" href="%sveltekit.assets%/img/Aero.png" type="font/otf" cas="img" crossorigin/>
+		<link rel="preload" href="%sveltekit.assets%/img/Background.png" type="font/otf" cas="img" crossorigin/>
+		<link rel="preload" href="%sveltekit.assets%/img/Skylan.png" type="font/otf" cas="img" crossorigin/>
+		<link rel="preload" href="%sveltekit.assets%/img/Tezos.png" type="font/otf" cas="img" crossorigin/>
+		<link rel="preload" href="%sveltekit.assets%/img/Xaur.png" type="font/otf" cas="img" crossorigin/>
+		<link rel="preload" href="%sveltekit.assets%/img/Yeezus.png" type="font/otf" cas="img" crossorigin/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
+		<div style="display: contents; font-family: 'SF Hello'>%sveltekit.body%</div>
 	</body>
 </html>
