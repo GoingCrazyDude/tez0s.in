@@ -2,11 +2,7 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {
-      fontFamily: {
-        sfhello: ['SF Hello', 'sans-serif']
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
