@@ -1,6 +1,5 @@
 <script>
     import Draggable from "$lib/components/Draggable.svelte";
-    import Question from "../../../static/img/Question.png"
     export let username;
     export let pronouns;
     export let description;
